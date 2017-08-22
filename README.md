@@ -3,7 +3,7 @@ This project contains an exploratory and predictive analysis of Chicago's ride s
 
 ## Getting Started
 
-The complete R Markdown script and the knit HTML document can be found in the analysis directory. Note that compiling the entirely of the rmd script from scratch may take a long time because of the computational complexity of the random forests.
+The complete R Markdown script and the knit HTML document can be found in the modelling directory. Note that compiling the entirely of the rmd script from scratch may take a long time because of the computational complexity of the random forests.
 
 ### Prerequisites
 
