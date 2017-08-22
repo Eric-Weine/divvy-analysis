@@ -1,2 +1,26 @@
 # divvy-analysis
-Analysis of Divvy Bike Data using the Weather and the Cubs Schedule as Predictors
+This project contains an exploratory and predictive analysis of Chicago's ride share system (Divvy Bike) data from 2016. The analysis demonstrates how local data, like the cubs schedule, and weather data can be used to help Divvy Bike predict spikes in demand. 
+
+## Getting Started
+
+The complete R Markdown script and the knit HTML document can be found in the analysis directory. Note that compiling the entirely of the rmd script from scratch may take a long time because of the computational complexity of the random forests.
+
+### Prerequisites
+
+To run the rmd script on your system, a number of packages must be installed. To install them, the following commands can be entered into an R script.
+
+```
+install.packages("boot")
+install.packages("glmnet")
+install.packages("MASS")
+install.packages("pscl")
+install.packages("randomForest")
+```
+
+## Authors
+
+* **Eric Weine** - ericweine@uchicago.edu
+
+## Acknowledgments
+
+Many of the visualizations were made with Tableau. The Map required use of the Google Maps API to lookup the zipcodes of bike stations based upon their geographic coordinates.
