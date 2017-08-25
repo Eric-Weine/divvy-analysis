@@ -7,14 +7,10 @@ The complete R Markdown script and the knit HTML document can be found in the mo
 
 ### Prerequisites
 
-To run the rmd script on your system, a number of packages must be installed. To install them, the following commands can be entered into an R script.
+To run the rmd script on your system, a number of packages must be installed. To install them, the following command can be entered into an R script.
 
 ```
-install.packages("boot")
-install.packages("glmnet")
-install.packages("MASS")
-install.packages("pscl")
-install.packages("randomForest")
+install.packages(c("boot", "glmnet", "MASS", "pscl", "randomForest"))
 ```
 
 ## Authors
